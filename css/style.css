@@ -60,10 +60,12 @@ body {
   font-weight: 300;
   line-height: 1.8;
 }
+img {
+  max-width: 100%;
+}
 .wrapper {
   width: 1920px;
   margin: 0 auto;
-  height: 100vh;
 }
 .container-layout {
   max-width: 1680px;
@@ -72,6 +74,16 @@ body {
 .container {
   max-width: 1260px;
   margin: 0 auto;
+}
+.vhidden {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  border: none;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .home {
@@ -194,4 +206,80 @@ body {
   font-size: 18px;
   padding: 20px 45px;
   border: 2px solid #ff690f;
+}
+
+/*--------------------*/
+
+.offer {
+  text-align: center;
+  padding: 92px 0 160px 0;
+}
+.section-title {
+  text-transform: uppercase;
+  font-family: Catamaran;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 1.2;
+  color: #333;
+  letter-spacing: 0.6px;
+}
+.offer__title {
+  margin-top: 0;
+  margin-bottom: 49px;
+}
+.offer__text {
+  letter-spacing: 0.18px;
+  margin-bottom: 72px;
+}
+.offer-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.offer-list__item {
+}
+.offer-item {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.offer-item__img {
+  margin-bottom: 44px;
+}
+.offer-item__subtitle {
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: auto;
+}
+.offer-item__title {
+  font-family: Catamaran;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.24px;
+  color: #333;
+  margin: 0 0 30px 0;
+}
+.btn_offer {
+  font-size: 15px;
+  padding: 13px 20px;
+}
+
+.gallery {
+}
+.gallery-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-flow: column wrap;
+  max-height: 1281px;
+}
+.gallery-list__item {
+  max-width: 33.333%;
+}
+.gallery-list__photo {
+  display: block;
+  vertical-align: top;
 }
