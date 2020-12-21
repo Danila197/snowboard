@@ -259,7 +259,7 @@ img {
   font-size: 15px;
   padding: 13px 20px;
 }
-
+/*---------------------*/
 .gallery-list {
   list-style: none;
   padding: 0;
@@ -272,4 +272,83 @@ img {
 }
 .gallery-list__photo {
   vertical-align: top;
+}
+
+/*-------------------*/
+
+.instructors {
+  text-align: center;
+  padding: 160px 0 165px 0;
+}
+.instructor__title {
+  margin-top: 0;
+  margin-bottom: 63px;
+}
+.instructors-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.instructors-list__item {
+}
+.instructors-item {
+  text-transform: uppercase;
+}
+.instructors-item__img {
+  border-radius: 50%;
+  margin-bottom: 32px;
+  vertical-align: top;
+}
+.instructors-item__post {
+  margin: 0 0 5 0;
+  font-size: 14px;
+}
+.instructors-item__name {
+  font-family: Catamaran;
+  font-weight: 900;
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+
+/*---------------*/
+.about {
+  background: url("../images/bg-second.jpg") no-repeat top center / cover;
+  padding-top: 229px;
+  padding-bottom: 307px;
+}
+.about__block {
+  padding-right: 446px;
+}
+.about__title {
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+.about__descr {
+  letter-spacing: 0.18px;
+  margin-bottom: 80px;
+}
+.statistics-list {
+  margin: 0;
+  display: flex;
+  flex-flow: column-reverse wrap;
+  max-height: 90px;
+}
+.statistics-list-value {
+  font-family: Catamaran;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 1;
+  letter-spacing: 0.64px;
+  color: #ff690f;
+  margin: 0;
+}
+.statistics-list-label {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
 }
