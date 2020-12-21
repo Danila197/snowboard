@@ -100,12 +100,7 @@ img {
   align-items: center;
   min-height: 130px;
 }
-.header__logo {
-}
-.logo {
-}
-.header__nav {
-}
+
 .nav-list {
   list-style: none;
   padding: 0;
@@ -237,8 +232,6 @@ img {
   display: flex;
   justify-content: space-around;
 }
-.offer-list__item {
-}
 .offer-item {
   text-transform: uppercase;
   display: flex;
@@ -267,8 +260,6 @@ img {
   padding: 13px 20px;
 }
 
-.gallery {
-}
 .gallery-list {
   list-style: none;
   padding: 0;
@@ -280,6 +271,5 @@ img {
   max-width: 33.333%;
 }
 .gallery-list__photo {
-  display: block;
   vertical-align: top;
 }
