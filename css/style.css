@@ -1,0 +1,75 @@
+@font-face {
+  font-family: Catamaran;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/catamaran/Catamaran-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Catamaran;
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../fonts/catamaran/Catamaran-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/muli/Muli-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/muli/Muli-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/muli/Muli-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Muli;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/muli/Muli-SemiBold.ttf") format("truetype");
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f6f6;
+  color: #565656;
+  font-family: Muli, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.8;
+}
+.wrapper {
+  width: 1920px;
+  margin: 0 auto;
+  height: 100vh;
+}
+.container-layout {
+  max-width: 1680px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+}
