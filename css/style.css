@@ -291,8 +291,6 @@ img {
   display: flex;
   justify-content: space-between;
 }
-.instructors-list__item {
-}
 .instructors-item {
   text-transform: uppercase;
 }
@@ -351,4 +349,147 @@ img {
   line-height: 1;
   letter-spacing: 0.18em;
   text-transform: uppercase;
+}
+
+/*------------*/
+.testimonials {
+  text-align: center;
+  padding: 162px 0;
+}
+.testimonials__title {
+  margin-bottom: 60px;
+  margin-top: 0;
+}
+.testimonials-list {
+  list-style: none;
+}
+.testimonials__list {
+  margin-bottom: 51px;
+  margin-top: 0;
+}
+.testimonials-list__item {
+}
+.testimonials-item {
+  padding: 0 220px;
+}
+.testimonials-item__photo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 23px;
+}
+.testimonials-item__photo::after,
+.testimonials-item__photo::before {
+  display: table;
+  width: 50px;
+  height: 36px;
+  transform: translateY(16px);
+}
+.testimonials-item__photo::after {
+  content: url("../images/icons/quote-left.png");
+}
+.testimonials-item__photo::before {
+  content: url("../images/icons/quote-right.png");
+}
+.testimonials-item__img {
+  margin: 0 13px;
+  border-radius: 50%;
+  vertical-align: top;
+}
+.testimonials-item__author {
+  text-transform: uppercase;
+  font-family: Catamaran;
+  font-weight: 900;
+  font-size: 18px;
+  color: #333;
+  margin: 0 0 42px 0;
+}
+.testimonials-item__text {
+}
+.slider-points {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.slider-points__item {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: #cdd4db;
+  margin: 0 9px;
+}
+.slider-points__item_active {
+  background-color: #ff690f;
+}
+
+/*-------------------*/
+
+.footer {
+  display: flex;
+  overflow: hidden;
+}
+.contact {
+  background-color: #333;
+  color: #f7f7f7;
+  padding: 100px 120px;
+}
+.section-title__contact {
+  margin: 0 0 62px 0;
+  color: #fff;
+}
+.contact__list {
+  margin-bottom: 73px;
+  margin-top: 0;
+}
+.contact-list {
+  list-style: none;
+  padding: 0 0 0 12px;
+}
+.contact-list__item {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  display: flex;
+}
+.contact-list__item::before {
+  display: table;
+  width: 18px;
+  height: 18px;
+  margin-right: 16px;
+}
+.contact-list__item_tel::before {
+  content: url("../images/icons/phone.png");
+}
+.contact-list__item_address::before {
+  content: url("../images/icons/marker.png");
+}
+.contact-list__item_mail::before {
+  content: url("../images/icons/mail.png");
+}
+.contact-list__item_time::before {
+  content: url("../images/icons/clock.png");
+}
+.contact__socials {
+  margin: 0;
+}
+.social-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+.social-list__item {
+  margin-right: 37px;
+}
+.social-list__link {
+}
+.social-list__img {
+  vertical-align: middle;
+}
+.map {
+}
+.map__img {
+  height: 100%;
+  max-width: initial;
 }
